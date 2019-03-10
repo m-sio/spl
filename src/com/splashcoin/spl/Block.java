@@ -6,12 +6,12 @@ public class Block {
     /*
         Set Block Variables;
      */
-    protected int id;
-    protected String message;
-    protected String sender;
-    protected String receiver;
-    protected BigInteger hash;
-    protected BigInteger previousHash;
+    public int id;
+    public String message;
+    public String sender;
+    public String receiver;
+    public BigInteger hash;
+    public BigInteger previousHash;
     // ############################## //
 
 }
