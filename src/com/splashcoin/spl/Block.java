@@ -1,8 +1,9 @@
 package com.splashcoin.spl;
 
+import java.io.Serializable;
 import java.math.BigInteger;
 
-public class Block {
+public class Block implements Serializable {
     /*
         Set Block Variables;
      */

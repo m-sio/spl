@@ -14,7 +14,7 @@ public class SplashFile {
     public static void exportBlockChain() {
         try {
             FileOutputStream fileOut =
-                    new FileOutputStream("blocks.splash");
+                    new FileOutputStream("../splashfiles/blocks.splash");
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
             out.writeObject(BlockChain.BlockChain);
             out.close();
@@ -33,7 +33,7 @@ public class SplashFile {
     public static ArrayList<Block> importBlockChain() {
         ArrayList<Block> BlockChain = new ArrayList<Block>();
         try {
-            FileInputStream fis = new FileInputStream("blocks.splash");
+            FileInputStream fis = new FileInputStream("../splashfiles/blocks.splash");
             ObjectInputStream ois = new ObjectInputStream(fis);
 
             BlockChain = (ArrayList) ois.readObject();

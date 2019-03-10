@@ -3,6 +3,7 @@ package com.splashcoin.spl.Tests;
 import java.util.Scanner;
 
 import static com.splashcoin.spl.Utils.addBlock.addBlock;
+import static com.splashcoin.spl.splashfiles.SplashFile.exportBlockChain;
 
 public class addBlockData {
     public static void getBlockData() {
@@ -28,5 +29,6 @@ public class addBlockData {
 
     public static void main(String[] args){
         getBlockData();
+        exportBlockChain();
     }
 }

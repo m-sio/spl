@@ -12,7 +12,7 @@ public class addBlock {
     public static void addBlock(String message, String sender, String receiver) {
         Integer id = getCurrentId.getCurrentId();
 //        System.out.println(id);
-        id = id++;
+        id = id+1;
         Block newBlock = new Block();
         newBlock.id = id;
         newBlock.message = message;
