@@ -12,7 +12,6 @@ public class Block {
     protected String receiver;
     protected BigInteger hash;
     protected BigInteger previousHash;
-    /*
-        End
-     */
+    // ############################## //
+
 }
